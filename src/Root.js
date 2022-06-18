@@ -1,13 +1,13 @@
 import logo from './CMEGroup_2c_RGB.png';
-import './App.css';
+import './Root.css';
 import React from "react";
 import SimpleMDE from "react-simplemde-editor";
 import "easymde/dist/easymde.min.css";
 
-function App() {
+function Root() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Root">
+      <header className="Root-header">
         <img src={logo} className="CME-App-logo" alt="logo" />
       </header>
       <SimpleMDE />
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Root;

@@ -8,7 +8,7 @@ function Root() {
   return (
     <div className="Root">
       <header className="Root-header">
-        <img src={logo} className="CME-App-logo" alt="logo" />
+        <img src={logo} className="CME-logo" alt="logo" />
       </header>
       <SimpleMDE />
     </div>
